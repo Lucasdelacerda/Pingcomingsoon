@@ -1,0 +1,194 @@
+html,
+body {
+	margin: 0;
+	background-color: white;
+}
+
+main {
+	margin: 5% 10%;
+	text-align: center;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+h1 {
+	font-weight: 300;
+	color: hsl(0, 0%, 59%);
+	font-size: 3.375rem;
+}
+
+strong {
+	color: black;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 1.125rem;
+	margin-top: -2%;
+}
+
+fieldset {
+	border: none;
+	display: flex;
+	flex-wrap: wrap;
+    place-content: center;
+}
+
+.valid {
+	margin-top: 3%;
+	width: 420px;
+	height: 3.4rem;
+	border-radius: 30px;
+	border: 2px solid hsla(223, 91%, 78%, 0.993);
+	font-size: 14px;
+	padding-left: 30px;
+}
+
+.valid::placeholder {
+	color: hsla(223, 91%, 78%, 0.652);
+}
+
+.valid:focus {
+	outline: none;
+}
+
+.lauching-and-notified form fieldset input[type=submit] {
+	width: 200px;
+	height: 3.6rem;
+	background-color: hsl(223, 87%, 63%);
+	border-radius: 30px;
+	border: none;
+	color: white;
+	font-weight: 300;
+	font-size: 0.915rem;
+	cursor: pointer;
+	margin: 15px 0 0 15px;
+
+}
+
+.lauching-and-notified form fieldset input[type=submit]:hover {
+	background-color: hsl(223, 77%, 69%);
+}
+
+.system-image {
+	margin-top: 5%;
+	width: 50%;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	margin-top: -2%;
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	width: 1.875rem;
+	height: 1.875rem;
+	margin-left: 0.938rem;
+}
+
+.icons {
+	width: 20px;
+	fill: hsl(223, 87%, 63%);
+}
+
+.facebook-link:hover {
+	background-color: #1877F2;
+}
+
+.instagram-link:hover {
+	background: linear-gradient(45deg, #E1306C, #F56040, #FFCC4D, #833AB4);
+}
+
+.twitter-link:hover {
+	background-color: #1DA1F2;
+}
+
+svg:hover {
+	fill: white;
+}
+
+a:hover {
+	border-radius: 100%;
+	width: 1.875rem;
+	height: 1.875rem;
+}
+
+#email-error-message {
+	color: rgba(251, 74, 74, 0.623);
+	font-size: 0.75rem;
+	width: 70%;
+
+
+}
+
+.invalid {
+	margin-top: 3%;
+	width: 420px;
+	height: 3.4rem;
+	border-radius: 30px;
+	border: 2px solid red;
+	font-size: 14px;
+	padding-left: 30px;
+}
+.invalid:focus {
+	outline: none;
+}
+
+@media(max-width:875px) {
+	fieldset {
+		display: block;
+	}
+}
+
+@media (max-width:375px) {
+
+	.lauching-and-notified {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.title-lauching {
+		font-size: 22px;
+		margin-top: 50px;
+	}
+
+	.instructions {
+		font-size: 15px;
+	}
+
+	#email-input {
+		width: 260px;
+		height: 40px;
+		margin-top: 30px;
+	}
+
+	#submit {
+		width: 295px;
+		height: 40px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#email-error-message {
+		width: 90%;
+	}
+
+	.valid::placeholder {
+		color: hsla(223, 91%, 78%, 0.652);
+	}
+
+	.valid::selection {
+		outline: none;
+	}
+	.system-image{
+		width:295px;
+	}
+	footer{
+ margin-top: 30px;
+	}
