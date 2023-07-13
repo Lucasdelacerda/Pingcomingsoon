@@ -23,4 +23,4 @@ This project was developed with the following technologies:
 ## 💻 Project
 
 Information page about the product to be launched together with the possibility to insert e-mail for launch notice.
-# Pingcomingsoon
+
