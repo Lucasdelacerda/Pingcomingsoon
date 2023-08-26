@@ -1,26 +1,59 @@
+# Ping Coming Soon Page - Front-end Mentor Project
 
-<h1 align="center"> Ping coming soon</h1>
+This is a "Ping Coming Soon" project created as part of Front-end Mentor activities. The purpose of this project is to allow users to submit their email addresses. When the website launches, users will receive an email notification.
 
-<p align="center">
-Exclusive and free program, promoted by <a href="https://www.freecodecamp.org/learn"> freecodecamp</a> for teaching WEB technologies. <br/>
+## Table of Contents
 
-</p>
-<br>
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation and Usage](#installation-and-usage)
+- [Learning and Observations](#learning-and-observations)
+- [Future Enhancements](#future-enhancements)
+- [Credits](#credits)
+- [Social Media](#social-media)
 
-<p align="center">
-  <img alt="interactive rating preview" src="./design/desktop-design.jpg" width="100%">
-</p>
+## Demo
 
+![Project Cover](./desktop-design.jpg)
 
-## 🚀 Technologies
+## Technologies Used
 
-This project was developed with the following technologies:
+- HTML
+- CSS
+- JavaScript
 
-- HTML e CSS
-- JAVASCRIPT
+## Features
 
+- Users can submit their email addresses for future notifications.
+- Validation using JavaScript:
+  - If an incorrect email format is entered, a red message is displayed, and the input border turns red.
+- Dynamic display:
+  - JavaScript is used to show/hide the relevant sections as needed.
 
-## 💻 Project
+## Installation and Usage
 
-Information page about the product to be launched together with the possibility to insert e-mail for launch notice.
+1. Clone this [repository](https://github.com/Lucasdelacerda/Pingcomingsoon) or download the files.
+2. Open the `index.html` file in a web browser.
 
+## Learning and Observations
+
+During this project, I learned how to use JavaScript to dynamically alter styles, identify errors using Regular Expressions (RegEx), and toggle the visibility of HTML elements.
+
+## Future Enhancements
+
+I plan to further improve the project by adding:
+- Server-side integration to store submitted email addresses.
+- Email notification upon submission.
+
+## Social Media
+
+Connect with me on social media:
+- Twitter: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
+- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/YourLinkedInProfile/)
+- Instagram: [@YourInstagramHandle](https://www.instagram.com/YourInstagramHandle/)
+
+## Credits
+
+- Original design provided by [Front-end Mentor](https://www.frontendmentor.io/home)
+- Author: Your Name
